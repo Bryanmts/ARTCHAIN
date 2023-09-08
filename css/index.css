@@ -26,10 +26,7 @@
 /* Header */
 
 .header{
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 15% 3rem 15%;
     background-color: #000000;
     display: flex;
     justify-content: space-between;
@@ -67,6 +64,14 @@
 
 /* Introduction to the page */
 
+.red_text_title{
+    display: flex;
+}
+
+.red_text{
+    color:#880304;
+}
+
 .first_part{
     background-color: #000000;
     position: relative;
@@ -85,9 +90,7 @@
     right: 15%;
     top: 25%;
     bottom: 25%;
-    padding-top: 4.5rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding: 4rem 6rem 0 6rem;
 }
 
 .first_part_text h1{
@@ -102,8 +105,7 @@
 }
 
 .second_part{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 0 3rem 0;
     background-color: #000000;
     position: relative;
     display: flex;
@@ -121,11 +123,9 @@
     background-color: #FFFFFF;
     position: absolute;
     left: 15%;
-    top: 35%;
-    bottom: 20%;
-    padding-top: 4rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    top: 25%;
+    bottom: 25%;
+    padding: 5.5rem 6rem 0 6rem;
 }
 
 .second_part_text h1{
@@ -143,10 +143,7 @@
 
 .exposed_artworks{
     background-color: #880304;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin: 3rem 4rem 3rem 4rem;
     padding-bottom: 3rem;
     position: relative;
 }
@@ -156,9 +153,7 @@
     justify-content: end;
     font-family: 'Geometos';
     color: #FFFFFF;
-    padding-top: 3rem;
-    padding-right: 4rem;
-    padding-bottom: 3rem;
+    padding: 3rem 4rem 3rem 0;
 }
 
 .exposed_artworks_items{
@@ -205,4 +200,157 @@
     width: auto;
     max-width: 30rem;
     max-height: 30rem;
+}
+
+/* Work with us */
+
+.work_with_us_main{
+    position: relative;
+    display: flex;
+}
+
+.work_with_us_main img{
+    height: auto;
+    width: auto;
+    max-width: 90vh;
+    max-height: 90vh;
+}
+
+.second_wwu_img{
+    position: absolute;
+    right: 0;
+}
+
+.work_with_us{
+    background-color: #880304;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.work_with_us_white{
+    background-color: #FFFFFF;
+    padding-right: 100vh;
+    padding: 6rem;
+}
+
+.work_with_us_content h1{
+    font-family: 'Geometos';
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.work_with_us_content h2{
+    font-family: 'Futura';
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0 4rem 0;
+}
+
+.work_with_us button{
+    font-family: 'Geometos';
+    font-size: 1.5rem;
+    background-color: #880304;
+    color: #FFFFFF;
+    border-radius: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 0 30%;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #000000;
+}
+
+.footer_icon{
+    height: auto;
+    width: auto;
+    max-width: 5rem;
+    max-height: 5rem;
+    padding: 3rem 0;
+    margin-left: 15%;
+}
+
+.footer_information{
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15% 2rem 15%;
+    font-family: 'Geometos';
+}
+
+.footer_title{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.footer_links h1{
+    font-size: 30px;
+}
+
+.footer_links h2{
+    font-size: 15px;
+}
+
+.footer_links h2 a{
+    color:#FFFFFF;
+}
+
+.first_social_icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 2rem 0 2rem 2rem;
+}
+
+.first_social_icons h2{
+    margin-left: 2rem;
+}
+
+.first_social_icons img{
+    height: auto;
+    width: auto;
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-left: 2rem;
+}
+
+.second_social_icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 2rem 0 2rem 2rem;
+}
+
+.second_social_icons h2{
+    margin-left: 2rem;
+}
+
+.second_social_icons img{
+    height: auto;
+    width: auto;
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-left: 2rem;
+}
+
+.footer hr{
+    background-color: #880304;
+    height: 4px;
+    margin: 0 15%;
+}
+
+.footer_copyright{
+    font-family: 'Geometos';
+    font-size: 0.8rem;
+    margin-left: 15%;
+    padding: 2rem 0;
+    color: #FFFFFF;
+
 }
